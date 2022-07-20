@@ -428,7 +428,7 @@ nav>ul {
 }
 
 /* Footer */
-footer {
+/* footer {
     background-color: var(--footerHeaderBackground);
     height: 70px;
     margin-top: 70px;
@@ -437,7 +437,7 @@ footer {
     bottom: 0;
     right: 0;
     width: 100%;
-}
+} */
 
 .social-media {
     display: flex;
