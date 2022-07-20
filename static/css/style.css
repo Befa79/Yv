@@ -5,7 +5,7 @@
     --bodyBackground: #FFDDD2;
     --footerHeaderBackground: #fff;
 
-    --positiveSlogan: #D88C9A;
+    --positiveSlogan: #ba8cd8;
     --positiveSloganBackground: rgba(100, 100, 100, 0.4);
 
     --socialMediaIcons: #8E7DBE;
@@ -14,6 +14,7 @@
     --bs-body-line-height: 20px;
 
 }
+
 
 .nav-item {
 
@@ -342,9 +343,12 @@ nav>ul {
 }
 
 .home-hero-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .dropdown-menu-nav {
