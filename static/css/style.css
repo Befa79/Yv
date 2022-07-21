@@ -2,8 +2,8 @@
 
 :root {
 
-    --bodyBackground: #FFDDD2;
-    --footerHeaderBackground: #fff;
+    --bodyBackground: #e2e1ff;
+    --footerHeaderBackground: #e2e1ff;
 
     --positiveSlogan: #ba8cd8;
     --positiveSloganBackground: rgba(100, 100, 100, 0.4);
@@ -17,7 +17,7 @@
 
 
 .nav-item {
-
+    background-color: var(--bodyBackground);
     font-family: 'Indie Flower', cursive;
 }
 
@@ -52,22 +52,7 @@ p {
     margin-bottom: 80px;
 }
 
-.resource-links {
-    text-align: left;
-}
 
-.resource-links li {
-    list-style: circle;
-}
-
-.resource-link-title {
-    text-decoration: none;
-    color: #8E7DBE;
-}
-
-.resource-link-title:hover {
-    color: #006D77;
-}
 
 .about-container-box {
     background-color: #fff;
@@ -78,59 +63,20 @@ p {
     border-radius: 20px;
 }
 
-.about-sub-title {
-    color: #8E7DBE;
-    font-size: 30px;
-    font-weight: bolder;
-    padding-bottom: 20px;
-}
-
-/* my daily lift */
-.checklist-container {
-    font-family: 'Indie Flower', cursive;
-    text-align: center;
-    background-color: #C1E2DE;
-    border-radius: 20px;
-    margin: 30px;
-    padding: 20px;
-    width: 50%;
-}
 
 .card {
     height: 250px;
     margin: 30px 0;
     text-align: center;
-    border: 1px solid #006D77;
+    border: 1px solid #4800ff;
     border-radius: 20px;
 }
 
 .card-title {
-    color: #006D77;
+    color: #4800ff;
 }
 
-.form-check-input:checked {
-    background-color: #006D77;
-    border-color: #006D77;
-}
 
-.form-check-input:focus {
-    border-color: #83C5BE;
-    outline: 0;
-    box-shadow: 0 0 0 0.25rem #83c5be;
-}
-
-.form-check-input:hover {
-    background-color: #C1E2DE;
-}
-
-.modal-title {
-    margin: 0 auto;
-}
-
-.modal-header .btn-close {
-    padding: 0;
-    margin: 0;
-}
 
 .main-container {
     margin-bottom: 80px;
@@ -145,16 +91,6 @@ p {
     height: 50px;
     color: #006D77;
     border: none;
-    border-radius: 20px;
-}
-
-#reload:hover {
-    background-color: #83C5BE;
-}
-
-.well-done-msg {
-    background-color: #006D77;
-    color: #fff;
     border-radius: 20px;
 }
 
@@ -294,7 +230,7 @@ p {
 /* Home Page (Rob) */
 
 nav {
-    background-color: #83C5BE;
+    background-color: var(--bodyBackground) !important;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -314,6 +250,8 @@ nav>ul {
     margin: 0;
     padding: 0;
     margin-top: 5px;
+    background-color: var(--bodyBackground);
+
 }
 
 .menu {
@@ -335,6 +273,7 @@ nav>ul {
 .menu a:hover {
     color: #006D77;
 }
+
 
 .home-hero-outer {
     margin-top: 50px;
@@ -377,7 +316,7 @@ nav>ul {
     margin: 30px 30px 0;
     font-size: 70px;
     padding: 10px;
-    color: #006D77;
+    color: #4800ff;
 }
 
 @media screen and (max-width: 321px) {
@@ -438,6 +377,11 @@ nav>ul {
     right: 0;
     width: 100%;
 } */
+
+
+.nav{
+    background-color: #FFDDD2;
+}
 
 .social-media {
     display: flex;
